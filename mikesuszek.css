@@ -732,6 +732,9 @@ body {
 }
 
 @media screen and (max-width : 600px) {
+	#fullvideo {
+		height: 100vh;
+	}
 	#section-01, #about-resume {
 		height: 1600px;
 	}
@@ -753,6 +756,7 @@ body {
 	}
 	.name-logo {
 		flex-direction: column;
+		top: 50vh;
 	}
 	#logo-03 {
 	    width: 138px;
