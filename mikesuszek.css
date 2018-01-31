@@ -731,7 +731,7 @@ body {
 	}
 }
 
-/* Next style section solves iPhone issues! */
+/* Next style section solves iPhone issuesm, max 767! */
 
 @media screen and (max-width : 767px) and (-webkit-min-device-pixel-ratio:0) {
 	#fullvideo {
@@ -827,6 +827,19 @@ body {
 	}
 }
 
+/* Next style section solves iPhone issuesm, max 600! */
+
+@media screen and (max-width : 600px) and (-webkit-min-device-pixel-ratio:0) {
+	#content-01-1 {font-size: 13px;}
+	#content-02-1 {font-size: 16px;}
+	#content-03-1 {font-size: 14px;}
+	#content-04-1 {font-size: 17px;}
+	#content-01, #content-02, #content-03, #content-04 {width: 100vw;}
+	#section-01, #section-02, #section-03, #section-04 {height: 100vh;}
+	#resume {font-size: 13px;}
+	#about-resume {height: 1950px;}
+}
+
 @media screen and (max-width : 500px) {
 	#section-01, #about-resume {
 		height: 1850px;
@@ -893,4 +906,17 @@ body {
 	#back-button {
 		left: 52%;
 	}
+}
+
+/* Next style section solves iPhone issuesm, max 500! */
+
+@media screen and (max-width : 500px) and (-webkit-min-device-pixel-ratio:0) {
+	#content-01-1 {font-size: 13px;}
+	#content-02-1 {font-size: 16px;}
+	#content-03-1 {font-size: 14px;}
+	#content-04-1 {font-size: 17px;}
+	#content-01, #content-02, #content-03, #content-04 {width: 100vw;}
+	#section-01, #section-02, #section-03, #section-04 {height: 100vh;}
+	#resume {font-size: 13px;}
+	#about-resume {height: 1950px;}
 }
