@@ -731,6 +731,17 @@ body {
 	}
 }
 
+/* MOBILE */
+
+@media screen and (max-width : 600px) {
+	#fullvideo {height: 100vh;}
+	.video-container {height: 100vh;}
+	.parallax-container {
+		background-attachment: scroll;
+		background-position: 40% 50%;
+	}
+}
+
 @media screen and (max-width : 600px) {
 	#back-button {
 		left: 60%;
@@ -795,6 +806,17 @@ body {
 	#section-02, #section-03, #section-04 {height: 100vh;}
 	#resume {font-size: 14px;}
 	#about-resume {height: 1850px;}
+}
+
+/* MOBILE */
+
+@media screen and (max-width : 500px) {
+	#fullvideo {height: 100vh;}
+	.video-container {height: 100vh;}
+	.parallax-container {
+		background-attachment: scroll;
+		background-position: 40% 50%;
+	}
 }
 
 @media screen and (max-width : 500px) {
