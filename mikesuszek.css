@@ -313,7 +313,7 @@ body {
 #section-01 {
 	background-image: url(michal-grosicki-221225.jpg);
 	background-color: #222222;
-	height: 1200px;
+	height: 100%;
 	margin-bottom: -60px;
 	display: inline-block;
 	position: static;
@@ -575,7 +575,7 @@ body {
 	.resume-container {
 		padding: 15px;
 	}
-	#section-01, #about-resume {
+	#about-resume {
 		height: 1300px;
 	}
 	#resume {
@@ -662,7 +662,7 @@ body {
 		width: 100%;
 		padding: 15px 30px;
 	}
-	#section-01, #about-resume {
+	#about-resume {
 		height: 1500px;
 	}
 	#resume {
@@ -749,13 +749,13 @@ body {
 	#content-03-1 {font-size: 14px;}
 	#content-04-1 {font-size: 17px;}
 	#content-01, #content-02, #content-03, #content-04 {width: 100vw;}
-	#section-01, #section-02, #section-03, #section-04 {height: 100vh;}
+	#section-02, #section-03, #section-04 {height: 100vh;}
 	#resume {font-size: 13px;}
 	#about-resume {height: 1950px;}
 }
 
 @media screen and (max-width : 600px) {
-	#section-01, #about-resume {
+	#about-resume {
 		height: 1600px;
 	}
 	#back-button {
@@ -835,13 +835,13 @@ body {
 	#content-03-1 {font-size: 14px;}
 	#content-04-1 {font-size: 17px;}
 	#content-01, #content-02, #content-03, #content-04 {width: 100vw;}
-	#section-01, #section-02, #section-03, #section-04 {height: 100vh;}
+	#section-02, #section-03, #section-04 {height: 100vh;}
 	#resume {font-size: 13px;}
 	#about-resume {height: 1950px;}
 }
 
 @media screen and (max-width : 500px) {
-	#section-01, #about-resume {
+	#about-resume {
 		height: 1850px;
 	}
 	.fn, .ln {
@@ -916,7 +916,7 @@ body {
 	#content-03-1 {font-size: 14px;}
 	#content-04-1 {font-size: 17px;}
 	#content-01, #content-02, #content-03, #content-04 {width: 100vw;}
-	#section-01, #section-02, #section-03, #section-04 {height: 100vh;}
+	#section-02, #section-03, #section-04 {height: 100vh;}
 	#resume {font-size: 13px;}
 	#about-resume {height: 1950px;}
 }
